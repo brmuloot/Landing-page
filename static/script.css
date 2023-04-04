@@ -81,3 +81,9 @@ nav a:hover{
     background-color: #555;
     color: white;
   }
+
+  footer{
+    background-color: #87624A;
+    display: flex;
+    justify-content: center;
+  }
