@@ -130,7 +130,7 @@ nav a:hover{
   .right-content {
     max-width: 70%;
   }
-  
+
   footer{
     background-color: #87624A;
     display: flex;
@@ -140,3 +140,35 @@ nav a:hover{
   .map {
     padding: 10px 30px;
   }
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    height: 20rem;
+    border: solid 0.1rem rgb(145, 58, 0);
+    background-image: url(../static/images/formulaire.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+input {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 30px;
+    margin: 1rem;
+    font-size: 26px;
+    font-weight: bolder;
+    padding: 0.4rem;
+}
+label {
+    font-weight: bold;
+    font-size: 24px;
+}
+input:hover {
+    color: #844C2a;
+    background-color:#f3d5c3;
+  
+}
