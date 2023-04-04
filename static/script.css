@@ -130,3 +130,13 @@ nav a:hover{
   .right-content {
     max-width: 70%;
   }
+  
+  footer{
+    background-color: #87624A;
+    display: flex;
+    justify-content: center;
+  }
+
+  .map {
+    padding: 10px 30px;
+  }
