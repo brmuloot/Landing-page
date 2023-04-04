@@ -1,0 +1,7 @@
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 0;
+}
